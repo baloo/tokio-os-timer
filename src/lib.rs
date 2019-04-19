@@ -11,6 +11,8 @@
 
 #![deny(missing_docs)]
 
+mod timerfd;
+
 mod delay;
 pub use delay::Delay;
 
